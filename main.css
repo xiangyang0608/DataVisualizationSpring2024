@@ -1,0 +1,150 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.bigTitle {
+    background-color: #b4b4b4c2;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.buttonBox {
+    background-color: #dadadadc;
+    border: 1px solid #ddd;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.title {
+    font-family: fantasy, serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.author {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.motivation,
+.audience,
+.researchquestions {
+    margin-bottom: 30px;
+}
+
+h2
+{
+    font-family: fantasy, serif;
+    font-size: 30px;
+    /* font-weight: bold; */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p
+{
+    font-size: 20px;
+}
+
+.section-title {
+    
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section-content {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.space {
+    height: 2px;
+    background-color: #555555;
+    position: relative;
+}
+
+.space::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #ddd;
+}
+
+.buttonBox.subpages button {
+    margin: 10px;
+    background-color: #dadadadc;
+    border: none;
+    color: #464646;
+    padding: 2px 100px;
+    text-align: center;
+    display: inline-block;
+    /* font-family: fantasy, serif; */
+    font-size: 24px;
+    /* font-style: italic; */
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+.buttonBox.subpages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonBox.subpages button:hover {
+    background-color: #464646;
+    color: white;
+}
+
+.figureContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the figures horizontally */
+}
+
+.figure {
+    margin: 20px 0; /* Add margins around each figure */
+}
+
+.figure iframe {
+    max-width: 100%; /* Ensure the iframes don't exceed their container */
+}
