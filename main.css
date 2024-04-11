@@ -168,4 +168,5 @@ p
 
 .figure iframe {
     max-width: 100%; /* Ensure the iframes don't exceed their container */
+    max-height: 80%;
 }
