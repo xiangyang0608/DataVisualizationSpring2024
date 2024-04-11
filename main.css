@@ -43,6 +43,26 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
 
+.descriptionBox {
+    background-color: #766e6e;
+    border: 1px solid #000000;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.descriptionBox p {
+    color: #fff;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
 .title {
     font-family: fantasy, serif;
     font-size: 24px;
@@ -137,11 +157,12 @@ p
 
 .figureContainer {
     display: flex;
-    flex-direction: column;
-    align-items: center; /* Center the figures horizontally */
+    /* flex-direction: column; */
+    align-items: center;
 }
 
 .figure {
+    flex: 1;
     margin: 20px 0; /* Add margins around each figure */
 }
 
