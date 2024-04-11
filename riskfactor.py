@@ -75,5 +75,9 @@ plt.ylabel('Number of People')
 plt.xticks(ticks=[0, 1, 2], labels=['Normal', 'Above Normal', 'Well Above Normal'], rotation=0)
 st.pyplot(plt)
 
+# Add a button to navigate to another page
+if st.button("Return"):
+    st.markdown("[Return](https://xiangyang0608.github.io/DataVisualizationSpring2024/)")
+
 
 
