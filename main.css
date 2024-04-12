@@ -8,7 +8,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f7f7f7;
-    color: #333;
+    color: #002147;
 }
 
 .container {
@@ -18,18 +18,18 @@ body {
 }
 
 .bigTitle {
-    background-color: #b4b4b4c2;
+    background-color: #fff;
     border: 1px solid #ddd;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0);
 }
 
 .buttonBox {
-    background-color: #dadadadc;
+    background-color: #fff;
     border: 1px solid #ddd;
     margin-top: -10px;
     margin-bottom: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    box-shadow: 0 0 10px rgba(0,0,0,0);
 }
 
 .box {
@@ -40,22 +40,22 @@ body {
     margin-bottom: 20px;
     margin-left: 100px;
     margin-right: 100px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    box-shadow: 0 0 10px rgba(0,0,0,0);
 }
 
 .descriptionBox {
-    background-color: #766e6e;
-    border: 1px solid #000000;
+    background-color: #fff;
+    border: 1px solid #fff;
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 50px;
     margin-right: 50px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    box-shadow: 0 0 10px rgba(0,0,0,0);
 }
 
 .descriptionBox p {
-    color: #fff;
+    color: #00356B;
 }
 
 .image {
@@ -64,18 +64,25 @@ body {
 }
 
 .title {
-    font-family: fantasy, serif;
+    font-family: Georgia, serif;
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
     text-align: center;
+    color : #101315;
 }
 
 .author {
+    font-family: serif;
     font-size: 16px;
     font-style: italic;
     margin-bottom: 20px;
     text-align: center;
+}
+
+.motivation {
+    font-family: Georgia, serif;
+    background-color: #fff;
 }
 
 .motivation,
@@ -86,7 +93,7 @@ body {
 
 h2
 {
-    font-family: fantasy, serif;
+    font-family: serif;
     font-size: 30px;
     /* font-weight: bold; */
     text-align: center;
@@ -129,9 +136,9 @@ p
 
 .buttonBox.subpages button {
     margin: 10px;
-    background-color: #dadadadc;
+    background-color: #EAF8FF;
     border: none;
-    color: #464646;
+    color: #0B4384;
     padding: 2px 100px;
     text-align: center;
     display: inline-block;
@@ -151,7 +158,7 @@ p
 }
 
 .buttonBox.subpages button:hover {
-    background-color: #464646;
+    background-color: #1177CB;
     color: white;
 }
 
